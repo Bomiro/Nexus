@@ -2,7 +2,7 @@ import os from 'os';
 import moment from 'moment';
 import { execSync } from 'child_process';
 
-const lang = 'ar';
+const lang = global.LANGUAGE;
 
 const messages = {
     en: {
